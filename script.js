@@ -2,7 +2,8 @@
 
 function palindrome(str){
 
-	str.toLowerCase;
+	str.toLowerCase();
+	console.log(str);
 	let i =0;
 	let j = str.length-1;
 
