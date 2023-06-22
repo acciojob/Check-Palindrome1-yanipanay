@@ -2,13 +2,13 @@
 
 function palindrome(str){
 
-	str.toLowerCase();
-	console.log(str);
+	let str1 = str.toLowerCase();
+	
 	let i =0;
-	let j = str.length-1;
+	let j = str1.length-1;
 
 	while(i<j){
-		if(str[i]==str[j]){
+		if(str1[i]==str1[j]){
 			i++;
 			j--;
 		}
